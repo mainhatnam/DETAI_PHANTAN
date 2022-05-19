@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\bin\Debug\DTphantan.exe.config
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\bin\Debug\DTphantan.exe
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\bin\Debug\DTphantan.pdb
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.Form1.resources
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.Properties.Resources.resources
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.exe
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.pdb
