@@ -71,8 +71,28 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="lienketbang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lienketbang.Designer.cs">
+      <DependentUpon>lienketbang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTdoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTdoc.Designer.cs">
+      <DependentUpon>PTdoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ptngang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ptngang.Designer.cs">
+      <DependentUpon>Ptngang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table.cs" />
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="Custom.resx">
       <DependentUpon>Custom.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +105,9 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="lienketbang.resx">
+      <DependentUpon>lienketbang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -94,6 +117,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PTdoc.resx">
+      <DependentUpon>PTdoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ptngang.resx">
+      <DependentUpon>Ptngang.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

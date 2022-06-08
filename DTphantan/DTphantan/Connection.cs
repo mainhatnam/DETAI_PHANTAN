@@ -10,14 +10,33 @@ namespace DTphantan
 {
     internal class Connection
     {
-        private string strConn = @"Data Source=DESKTOP-KBP87TJ;Initial Catalog=QLGIAY;User ID=sa;Password=123456";
+        private string user;
+        private string pass;
+        private string strConn;
         public SqlConnection conn { get; set; }
         public SqlCommand cmd { get; set; }
         public SqlDataReader drd { get; set; }
         public SqlDataAdapter da { get; set; }
         //constructor
         public Connection()
-        {
+        {         
+            //this.user = User.UserName;
+            //this.pass = User.Pass;
+
+            this.user = "nhatnam";
+            this.pass = "123456";
+            string Dbname ="QLGIAYPT";
+
+            //string Dbname;
+            //if (User.NewDb == null)
+            //{
+            //     Dbname = "master";
+            //}
+            //else
+            //{
+            //     Dbname = User.NewDb;
+            //}
+            this.strConn = @"Data Source=DESKTOP-KBP87TJ;Initial Catalog="+ Dbname + ";User ID=" + this.user + ";Password=" + this.pass + "";
             conn = new SqlConnection(strConn);
             cmd = null;
             drd = null;
@@ -57,10 +76,19 @@ namespace DTphantan
             return drd;
         }
         //Cập nhật dữ liệu theo mô hình kết nối
-        public int executeUpdate(string sql)
+        public bool executeUpdate(string sql)
         {
             cmd = new SqlCommand(sql, conn);
-            return cmd.ExecuteNonQuery();
+            try
+            {
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            
         }
         ////Mô hình ngắt kết nối/////
         //Đổ dữ liệu từ CSDL -> DataAdapter -> DataTable
@@ -80,5 +108,7 @@ namespace DTphantan
             SqlCommandBuilder scb = new SqlCommandBuilder(da);
             da.Update(dt);
         }
+
+       
     }
 }

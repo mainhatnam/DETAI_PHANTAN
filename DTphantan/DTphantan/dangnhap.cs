@@ -16,5 +16,25 @@ namespace DTphantan
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string user = textBox1.Text;
+            string pass = textBox2.Text;
+            User.UserName = user;
+            User.Pass = pass;    
+            Connection conn = new Connection();
+            if (conn.openConn())
+            {
+                MessageBox.Show("dang nhap thanh cong");
+                Custom b = new Custom();
+                b.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("tai khoan mat khau ko dung ");
+            }
+        }
     }
 }

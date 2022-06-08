@@ -11,3 +11,7 @@ C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.exe
 C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.pdb
 C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.dangnhap.resources
 C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.Custom.resources
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.Form2.resources
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.lienketbang.resources
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.Ptngang.resources
+C:\Users\HP\Desktop\DTphantan\DTphantan\DTphantan\obj\Debug\DTphantan.PTdoc.resources
