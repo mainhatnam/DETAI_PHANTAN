@@ -31,6 +31,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -44,9 +47,6 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -96,6 +96,41 @@
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(155, 21);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(74, 22);
+            this.textBox4.TabIndex = 39;
+            this.textBox4.Text = "MySQL";
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button6.Location = new System.Drawing.Point(384, 156);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(109, 40);
+            this.button6.TabIndex = 38;
+            this.button6.Text = "Kết nối";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button5.Location = new System.Drawing.Point(384, 103);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(109, 40);
+            this.button5.TabIndex = 37;
+            this.button5.Text = "Tạo";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // textBox3
             // 
@@ -218,6 +253,7 @@
             this.button1.TabIndex = 34;
             this.button1.Text = "Phân tán dọc";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
@@ -231,41 +267,6 @@
             this.button4.Text = "Phân tán ngang";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button5.Location = new System.Drawing.Point(384, 103);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(109, 40);
-            this.button5.TabIndex = 37;
-            this.button5.Text = "Tạo";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click_1);
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button6.Location = new System.Drawing.Point(384, 156);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(109, 40);
-            this.button6.TabIndex = 38;
-            this.button6.Text = "Kết nối";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(155, 21);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(74, 22);
-            this.textBox4.TabIndex = 39;
-            this.textBox4.Text = "MySQL";
             // 
             // Custom
             // 

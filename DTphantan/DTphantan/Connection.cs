@@ -19,23 +19,23 @@ namespace DTphantan
         public SqlDataAdapter da { get; set; }
         //constructor
         public Connection()
-        {         
+        {
             //this.user = User.UserName;
             //this.pass = User.Pass;
 
             this.user = "nhatnam";
             this.pass = "123456";
-            string Dbname ="QLGIAYPT";
+            string Dbname = "QLGIAYPT";
 
             //string Dbname;
             //if (User.NewDb == null)
             //{
-            //     Dbname = "master";
+            //    Dbname = "master";
             //}
             //else
             //{
-            //     Dbname = User.NewDb;
-            //}
+            //    Dbname = User.NewDb;
+             // }
             this.strConn = @"Data Source=DESKTOP-KBP87TJ;Initial Catalog="+ Dbname + ";User ID=" + this.user + ";Password=" + this.pass + "";
             conn = new SqlConnection(strConn);
             cmd = null;

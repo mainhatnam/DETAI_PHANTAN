@@ -61,6 +61,18 @@ namespace DTphantan
             comboBox2.ValueMember = "Field";
             comboBox2.DisplayMember = "Field";
             comboBox2.SelectedIndex = 0;
+            string sqlallLienHe = "SELECT * FROM OPENQUERY(" + User.NameLink + " , 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME as banglienket,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_SCHEMA = ''qlgiay'' and TABLE_NAME =''" + textBox2.Text + "'' AND  REFERENCED_TABLE_NAME = ''" + comboBox4.Text + "'' ; ')";
+            DataTable dtcheck = conn.loadDataTable(sqlallLienHe);
+            if (dtcheck.Rows.Count == 0)
+            {
+                label7.Text = "Vui Lòng Viết Điều Kiện";
+                textBox1.Enabled = true;
+            }
+            else
+            {
+                label7.Text = "";
+                textBox1.Enabled = false;
+            }
             conn.closeConn();
         }
 

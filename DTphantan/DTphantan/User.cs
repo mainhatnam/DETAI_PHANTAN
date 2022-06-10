@@ -8,7 +8,7 @@ namespace DTphantan
 {
     internal class User
     {
-        public static string UserName,Pass,NewDb,NameLink ="TEST";
+        public static string UserName,Pass,NewDb,NameLink="TEST";
         public static List<string> BangTC;
 
     }

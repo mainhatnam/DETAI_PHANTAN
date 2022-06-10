@@ -171,5 +171,17 @@ namespace DTphantan
             }
             conn.closeConn();
         }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int i;
+            i = dataGridView2.CurrentRow.Index;
+            textBox1.Text = dataGridView2.Rows[i].Cells[0].Value.ToString();
+        }
     }
 }

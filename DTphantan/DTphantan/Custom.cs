@@ -135,5 +135,12 @@ namespace DTphantan
             ngang.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 doc  = new Form2();
+            doc.Show();
+            this.Hide();
+        }
     }
 }
